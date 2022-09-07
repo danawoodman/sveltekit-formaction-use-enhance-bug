@@ -7,10 +7,10 @@
 </script>
 
 <pre>DATA: {JSON.stringify(data, null, 2)}</pre>
-<pre>FORM: {JSON.stringify(data, null, 2)}</pre>
+<pre>FORM: {JSON.stringify(form, null, 2)}</pre>
 
-<!-- <form method="POST" action="?/a" use:enhance> -->
-<form method="POST" action="?/a">
+<form method="POST" action="?/a" use:enhance>
+	<!-- <form method="POST" action="?/a"> -->
 	<button>Submit A</button>
 	<button formaction="?/b">Submit B</button>
 </form>
